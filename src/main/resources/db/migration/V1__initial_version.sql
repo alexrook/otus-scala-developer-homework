@@ -8,8 +8,7 @@ create table roles (
 insert into roles(code, name)
 values ('reader', 'Reader'),
 ('manager', 'Manager'),
-('admin', 'Admin')
-;
+('admin', 'Admin');
 
 create table users (
     id uuid primary key default uuid_generate_v4(),
